@@ -4,15 +4,25 @@ Pick, convert, compare, and export colors with synchronized HEX, RGB, HSL, HSV, 
 
 ## Features
 
-- Direct saturation, brightness, hue, and opacity controls
-- Synchronized HEX, RGB, RGBA, HSL, and HSV values
-- Contrast testing and accessible adjustment suggestions
-- Color harmonies, mixing, saved colors, and palette export
-- Optional browser eyedropper support
+- Interactive saturation-and-brightness surface with hue and opacity sliders
+- System colour input, direct HEX entry, and optional screen eyedropper
+- Synchronized HEX, RGB, RGBA, HSL, and HSV values with individual or combined copying
+- Editable RGB and HSL channels for precise numeric adjustments
+- WCAG contrast ratios for AA large text, AA normal text, and AAA normal text with colour swapping and adjustment suggestions
+- Clickable tints, shades, and complementary, analogous, or triadic harmony palettes
+- Locally saved colours plus CSS and JSON palette downloads
 
 ## Screenshot
 
 ![Color Picker & Converter interface](./public/tool-preview.webp)
+
+## How to use
+
+1. Choose a colour on the visual surface, open the system picker, enter a HEX value, or use the screen eyedropper when available.
+2. Fine-tune hue, saturation, brightness, opacity, RGB, or HSL values; every output format updates together.
+3. Copy one format or all values, and save frequently used colours for the current browser.
+4. Set a comparison colour, choose a WCAG target, and review or apply the suggested accessible adjustment.
+5. Explore tints, shades, and harmony modes, then download the palette as CSS or JSON.
 
 ## Browser support and limitations
 

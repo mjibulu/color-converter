@@ -52,9 +52,11 @@ export function App() {
           <summary>How to use this tool</summary>
           <div className="information-content">
             <ol>
-            <li>{"Choose a color visually or enter one of the supported color values."}</li>
-            <li>{"Adjust channels or opacity and copy any synchronized output format."}</li>
-            <li>{"Compare contrast, explore harmonies, or export the resulting palette."}</li>
+            <li>{"Choose a colour on the visual surface, open the system picker, enter a HEX value, or use the screen eyedropper when available."}</li>
+            <li>{"Fine-tune hue, saturation, brightness, opacity, RGB, or HSL values; every output format updates together."}</li>
+            <li>{"Copy one format or all values, and save frequently used colours for the current browser."}</li>
+            <li>{"Set a comparison colour, choose a WCAG target, and review or apply the suggested accessible adjustment."}</li>
+            <li>{"Explore tints, shades, and harmony modes, then download the palette as CSS or JSON."}</li>
             </ol>
           </div>
         </details>
