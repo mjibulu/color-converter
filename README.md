@@ -31,18 +31,23 @@ The current stable releases of Chromium, Firefox, and Safari are supported.
 - The screen eyedropper is available only in browsers that implement the EyeDropper API; manual entry and the colour picker remain available everywhere.
 - Copying a colour may require a user gesture or clipboard permission.
 
-## Run locally
+## Clone and run locally
 
 Requirements:
 
-- Node.js 24.x
+- Git
+- Node.js 22.13.x or Node.js 24.x (recommended)
 - Corepack
 
 ```bash
+git clone https://github.com/mjibulu/color-converter.git
+cd color-converter
 corepack enable
 pnpm install --frozen-lockfile
 pnpm run dev
 ```
+
+The development server prints the local URL to open in your browser.
 
 ## Verify
 
